@@ -53,7 +53,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
-        <h2 class="section-title">About the course</h2>
+        <h2 class="section-title">{{site.data.homepage.about.title}}</h2>
         <p>{{site.data.homepage.about.first_paragraph}}</p><br>
 
         <div class="row">
@@ -79,9 +79,45 @@ layout: default
 
         <p>{{site.data.homepage.about.second_paragraph}}</p><br><br>
 
-        <a class="btn-primary btn-hg" href="#">{{site.data.homepage.about.call_to_action}}</a>
+        <a class="btn-primary btn-hg" href="#signup_row">{{site.data.homepage.about.call_to_action}}</a>
       </div>
     </div>
+  </div>
+</div>
+
+
+<!-- What You Will Learn -->
+<div class="learn-row description-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <h2 class="section-title">{{site.data.homepage.learn.title}}</h2>
+        
+        {% for point in site.data.homepage.learn.points %}
+            <div class="point col-sm-4">
+                <div class="point-number">{{point.number}}</div>
+                <div class="point-title">{{point.title}}</div>
+                <div class="point-description">{{point.description}}</div>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sign Up To Get Notified -->
+<div class="signup-row description-row" id="signup_row">
+  <div class="container">
+      <div class="col-lg-12 col-md-12">
+        <h2 class="section-title">{{site.data.homepage.signup.title}}</h2>
+        <div class="row">
+            <input class="col-xs-12 col-sm-6 col-sm-offset-3" type="textbox" placeholder="Enter your e-mail address">
+        </div>
+        <div class="row">
+            <input class="col-xs-12 col-sm-6 col-sm-offset-3 btn-primary btn-hg" type="submit" value="Notify me">
+        </div>
+      </div>
   </div>
 </div>
 

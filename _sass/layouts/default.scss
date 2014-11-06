@@ -14,19 +14,20 @@ body {
 }
 
 h2.section-title {
-  color: #57986d !important;
+  color: $heading-color !important;
   font-size: 35px;
 }
 
-.btn-primary {
-  background: #50af71;
-  border: 1px solid #50af71;
+.btn-primary, .btn-primary:focus, .btn-primary:active {
+  background: $button-color;
+  border: 1px solid $button-color;
   border-radius: 5px !important;
   padding: 15px 40px !important;
-  box-shadow: 0px 2px 0px 1px e2f1ef;
+  box-shadow: 0px 2px 0px 1px #e2f1ef;
+  text-decoration: none;
 
-  &:hover {
-    background: darken(#50af71, 5%) !important;
+  &:hover, &:focus:hover {
+    background: darken($button-color, 5%) !important;
   }
 }
 
@@ -61,7 +62,7 @@ h2.section-title {
 
   p.quote {
     font-size:19px; 
-    color: #4f6f53;
+    color: darken($heading-color, 15%);
   }
 
   .large-img-rounded {
@@ -78,20 +79,21 @@ h2.section-title {
     font-size: 20px;
     font-weight: 200;
     line-height: 36px;
+    color: $black;
   }
 
   .underline {
-    border-bottom: 3px solid #d8ece9;
+    border-bottom: 3px solid fade-out($button-color, 0.9);
     padding-bottom: 3px;
   }
 
   table {
     th {
-      background: #e9f3f1;
+      background: fade-out($button-color, 0.88);
       border-bottom: 2px solid #fff !important;
     }
     td {
-      background: #f1f8f6;
+      background: fade-out($button-color, 0.93);
 
       &.amount{
         color: #57986d;
@@ -102,6 +104,66 @@ h2.section-title {
       border-left: 1px solid #fff;
       border-bottom: 1px solid #fff;
       padding: 15px !important;
+    }
+  }
+}
+
+
+/* Learn */
+.point {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 50px;
+
+  .point-number {
+    float: left;
+    border: 1px solid $black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 1px;
+    padding-top: 1px;
+  }
+
+  .point-title {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+    color: $black;
+  }
+
+  .point-description {
+    padding-left: 45px;
+    color: $black;
+  }
+}
+
+/* Sign up */
+.signup-row {
+  background: #e9f3f1;
+  margin-top:20px;
+
+  h2.section-title {
+    font-weight: normal;
+    color: $black !important;
+    margin-top: 0px;
+  }
+
+  input[type="textbox"] {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 7px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s all ease;
+
+    &:focus {
+      box-shadow: 0px 0px 3px 1px #ccc !important;
+      outline: none !important;
     }
   }
 }

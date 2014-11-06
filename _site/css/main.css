@@ -2224,13 +2224,14 @@ h2.section-title {
   color: #57986d !important;
   font-size: 35px; }
 
-.btn-primary {
+.btn-primary, .btn-primary:focus, .btn-primary:active {
   background: #50af71;
   border: 1px solid #50af71;
   border-radius: 5px !important;
   padding: 15px 40px !important;
-  box-shadow: 0px 2px 0px 1px e2f1ef; }
-  .btn-primary:hover {
+  box-shadow: 0px 2px 0px 1px #e2f1ef;
+  text-decoration: none; }
+  .btn-primary:hover, .btn-primary:focus:hover, .btn-primary:focus:hover, .btn-primary:focus:focus:hover, .btn-primary:active:hover, .btn-primary:active:focus:hover {
     background: #489e66 !important; }
 
 /* Hero */
@@ -2255,7 +2256,7 @@ h2.section-title {
   text-align: center; }
   .testimonial-row p.quote {
     font-size: 19px;
-    color: #4f6f53; }
+    color: #3b674a; }
   .testimonial-row .large-img-rounded {
     margin-top: -90px !important; }
 
@@ -2265,15 +2266,16 @@ h2.section-title {
   .description-row p {
     font-size: 20px;
     font-weight: 200;
-    line-height: 36px; }
+    line-height: 36px;
+    color: #545454; }
   .description-row .underline {
-    border-bottom: 3px solid #d8ece9;
+    border-bottom: 3px solid rgba(80, 175, 113, 0.1);
     padding-bottom: 3px; }
   .description-row table th {
-    background: #e9f3f1;
+    background: rgba(80, 175, 113, 0.12);
     border-bottom: 2px solid #fff !important; }
   .description-row table td {
-    background: #f1f8f6; }
+    background: rgba(80, 175, 113, 0.07); }
     .description-row table td.amount {
       color: #57986d; }
   .description-row table td, .description-row table th {
@@ -2281,6 +2283,51 @@ h2.section-title {
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 15px !important; }
+
+/* Learn */
+.point {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 50px; }
+  .point .point-number {
+    float: left;
+    border: 1px solid #545454;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 1px;
+    padding-top: 1px; }
+  .point .point-title {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+    color: #545454; }
+  .point .point-description {
+    padding-left: 45px;
+    color: #545454; }
+
+/* Sign up */
+.signup-row {
+  background: #e9f3f1;
+  margin-top: 20px; }
+  .signup-row h2.section-title {
+    font-weight: normal;
+    color: #545454 !important;
+    margin-top: 0px; }
+  .signup-row input[type="textbox"] {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 7px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s all ease; }
+    .signup-row input[type="textbox"]:focus {
+      box-shadow: 0px 0px 3px 1px #ccc !important;
+      outline: none !important; }
 
 /*
 RESPONSIVE.SCSS: responsive layout tweaks for breakpoints

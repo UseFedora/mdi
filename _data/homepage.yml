@@ -28,3 +28,29 @@ about:
       income: "?"
   second_paragraph: "They also share the marketing and promotion strategies they used to scale their business up to the <span class='underline'>tune of over $1m net to them in 2014</span>. The course is rounded off with interviews from the best teacher entrepreneurs there are - along with a goodie bag with all the free software you need to <span class='underline'>start your own online teaching business</span>."
   call_to_action: "Notify me when this course launches"
+
+learn:
+  title: "What you will learn"
+  points:
+    - number: "1"
+      title: "Have a Killer Idea"
+      description: "How to find a great course idea and evaluate its potential for success before recording any content"
+    - number: "2"
+      title: "Do Pre-Production Right"
+      description: "Research, preparation and script writing that will save you a ton of time"
+    - number: "3"
+      title: "Create a High Quality Production"
+      description: "The specific process used by Bitfountain to create high-quality, engaging video and screencasts."
+    - number: "4"
+      title: "Optimal post-production process"
+      description: "The optimal way"
+    - number: "5"
+      title: "The Art of the Pre-Launch Hustle"
+      description: "How to featuring insights from Nathan Barry"
+    - number: "6"
+      title: "Complete Post-Launch Marketing Checklist"
+      description: "The complete list of strategies and tactics that Fedora has seen 1000+ courses on its platform employ"
+
+signup:
+  title: "Sign up to get notified"
+
