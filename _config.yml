@@ -1,0 +1,25 @@
+# Site settings
+title: Fedora - Start an Online School | Online Course Hosting
+email: ankur@usefedora.com
+description: "Create a Stunning Online School - Everything you need to sell courses from your website"
+url: "http://usefedora.com"
+twitter_username: usefedora
+
+
+mixpanel_dev_token: "18af4642364437ebc4a717819c6e0aec"
+mixpanel_prod_token: "d5e14496868d0a34f5d90b8701866cd0"
+
+github_username:  useFedora
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+baseurl: ""
+include: ["_fonts", "_bg_videos"]
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+sass:
+  sass_dir: _sass

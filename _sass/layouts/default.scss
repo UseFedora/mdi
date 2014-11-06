@@ -1,0 +1,107 @@
+/*
+HOMEPAGE.SCSS
+*/
+
+
+body {
+  font-family: 'Proxima' !important;
+}
+
+.large-img-rounded {
+  border-radius: 90px;
+  width: 185px;
+  margin: auto;
+}
+
+h2.section-title {
+  color: #57986d !important;
+  font-size: 35px;
+}
+
+.btn-primary {
+  background: #50af71;
+  border: 1px solid #50af71;
+  border-radius: 5px !important;
+  padding: 15px 40px !important;
+  box-shadow: 0px 2px 0px 1px e2f1ef;
+
+  &:hover {
+    background: darken(#50af71, 5%) !important;
+  }
+}
+
+
+/* Hero */
+.homepage-hero {
+  height: 685px;
+  padding-top: 150px;
+
+  h2.headline {
+    margin-top: 135px;
+  }
+
+  h3.subtitle {
+    color: #fff !important;
+    margin-top: 55px !important;
+    font-size: 26px !important;
+    line-height: 41px !important;
+    color: rgba(255,255,255,0.9) !important;
+
+    a {
+      color: rgba(255,255,255,0.9) !important;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Testimonial */
+.testimonial-row {
+  font-size: 20px;
+  text-align: center;
+
+  p.quote {
+    font-size:19px; 
+    color: #4f6f53;
+  }
+
+  .large-img-rounded {
+    margin-top: -90px !important;
+  }
+}
+
+
+/* Content */
+.description-row {
+  text-align: center;
+
+  p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 36px;
+  }
+
+  .underline {
+    border-bottom: 3px solid #d8ece9;
+    padding-bottom: 3px;
+  }
+
+  table {
+    th {
+      background: #e9f3f1;
+      border-bottom: 2px solid #fff !important;
+    }
+    td {
+      background: #f1f8f6;
+
+      &.amount{
+        color: #57986d;
+      }
+    }
+    td, th {
+      text-align: center;
+      border-left: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      padding: 15px !important;
+    }
+  }
+}
