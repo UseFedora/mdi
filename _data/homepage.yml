@@ -7,6 +7,7 @@ hero:
 testimonial:
   quote: "I love the simplicity of the user interface and the ability to motivate students through videos, written lectures, quizzes, and supplemental materials."
   person: "<strong>Conrad Wadowski</strong>, <em>Instructor</em>"
+  image: "https://graph.facebook.com/conradwadowski/picture?width=300&amp;height=300"
 
 about:
   title: "About the course"
@@ -53,4 +54,56 @@ learn:
 
 signup:
   title: "Sign up to get notified"
+
+letter:
+  title: "A Letter from Ankur"
+  image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+  contents:
+    - paragraph: "<strong>Everything we knew about education has changed.</strong>"
+    - paragraph: "Never before in history has it been feasible for one individual to teach millions of people at scale."
+    - paragraph: "Historically, people have always learned from local experts - your high school football coach, your community college professor, the pastor at your local church, the intensive coding bootcamp at the nearest city."
+    - paragraph: "Chances are none of those teachers were truly exceptional. At least not compared to all the potential teachers for that specific topic in the entire world"
+    - paragraph: "Have you heard the proverb: &quot;Those who can, do; those who can't, teach&quot;?"
+    - paragraph: "But now with a high speed Internet connection... the script has flipped. Why should you learn from anyone but the best anymore?"
+    - paragraph: "Why should you enroll in a social media course at a local community college when you can have Gary Vaynerchuk teaching you instead?"
+    - paragraph: "You should be learning writing from a New York Times best-selling author, screenwriting from an Oscar-winning artist or learning to hustle straight from Jay-Z."
+    - paragraph: "And excitingly this phenomenon is well under way."
+    - paragraph: "With the opportunity to teach tens of thousands of students without having to go through a university as an intermediary, there is no longer a ceiling on how much money a teacher can make."
+    - paragraph: "In fact, the Wall Street Journal reports of teachers in Korea making $4m a year teaching hundreds of thousands of students."
+    - paragraph: "And this is just the beginning."
+    - paragraph: "This is why I founded Fedora a little over a year ago."
+    - paragraph: "We want to power technology for &quot;super teachers&quot; - an instructor teaching thousands of students at scale, making seven figures a year."
+    - paragraph: "And now finally one year in... we have unlocked our first million dollar instructors - two individuals that are on track to make over $1m in online course sales."
+    - paragraph: "<strong>This is their story.</strong>"
+
+featuring:
+  title: "Featuring insights from:"
+  people:
+    - name: "Noah Kagan"
+      role: "Instructor, GrowHack"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "Mattan Griffel"
+      role: "Instructor, GrowHack"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "David Kadavy"
+      role: "Instructor, GrowHack"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "Mark Lassoff"
+      role: "Founder, LearnToProgram.tv"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "Paul Solt"
+      role: "Founder, iPhoneDev.tv"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "Nathan Berry"
+      role: "Instructor, GrowHack"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "David Garland"
+      role: "Instructor, GrowHack"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+    - name: "Scott Britton"
+      role: "Instructor, GrowHack"
+      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+
+
+
 

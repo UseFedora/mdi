@@ -5,6 +5,7 @@ HOMEPAGE.SCSS
 
 body {
   font-family: 'Proxima' !important;
+  color: $black;
 }
 
 .large-img-rounded {
@@ -76,7 +77,7 @@ h2.section-title {
   text-align: center;
 
   p {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 200;
     line-height: 36px;
     color: $black;
@@ -164,6 +165,56 @@ h2.section-title {
     &:focus {
       box-shadow: 0px 0px 3px 1px #ccc !important;
       outline: none !important;
+    }
+  }
+}
+
+
+/* Letter */
+.letter-row {
+  text-align: left;
+
+  h2.section-title {
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: normal;
+    font-size: 38px;
+    font-style: italic;
+    line-height: 45px;
+    margin-top:50px;
+    color: $black !important;
+  }
+
+  .large-img-rounded {
+    width: 120px !important;
+    height: 120px !important;
+    margin-top: 40px;
+  }
+
+}
+
+/* Featuring Ingsights From */
+.featuring-row {
+  h2.section-title {
+    margin-top: 0px;
+  }
+
+  .large-img-rounded {
+    width: 120px !important;
+    height: 120px !important;
+    margin-bottom:15px;
+  }
+
+  .person {
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 17px;
+
+    em {
+      font-weight:200;
     }
   }
 }

@@ -2213,7 +2213,8 @@ h2.headline {
 HOMEPAGE.SCSS
 */
 body {
-  font-family: 'Proxima' !important; }
+  font-family: 'Proxima' !important;
+  color: #545454; }
 
 .large-img-rounded {
   border-radius: 90px;
@@ -2264,7 +2265,7 @@ h2.section-title {
 .description-row {
   text-align: center; }
   .description-row p {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 200;
     line-height: 36px;
     color: #545454; }
@@ -2329,6 +2330,38 @@ h2.section-title {
       box-shadow: 0px 0px 3px 1px #ccc !important;
       outline: none !important; }
 
+/* Letter */
+.letter-row {
+  text-align: left; }
+  .letter-row h2.section-title {
+    text-align: center; }
+  .letter-row h3 {
+    font-weight: normal;
+    font-size: 38px;
+    font-style: italic;
+    line-height: 45px;
+    margin-top: 50px;
+    color: #545454 !important; }
+  .letter-row .large-img-rounded {
+    width: 120px !important;
+    height: 120px !important;
+    margin-top: 40px; }
+
+/* Featuring Ingsights From */
+.featuring-row h2.section-title {
+  margin-top: 0px; }
+.featuring-row .large-img-rounded {
+  width: 120px !important;
+  height: 120px !important;
+  margin-bottom: 15px; }
+.featuring-row .person {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-size: 17px; }
+  .featuring-row .person em {
+    font-weight: 200; }
+
 /*
 RESPONSIVE.SCSS: responsive layout tweaks for breakpoints
 */
@@ -2345,6 +2378,9 @@ RESPONSIVE.SCSS: responsive layout tweaks for breakpoints
 @media (min-width: 0px) and (max-width: 767px) {
   h2.headline {
     margin-top: 105px !important;
+    font-size: 33px !important; }
+
+  h2.section-title {
     font-size: 33px !important; }
 
   .btn-primary {
