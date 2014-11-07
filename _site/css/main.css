@@ -2244,7 +2244,9 @@ a {
 /* Hero */
 .homepage-hero {
   height: 685px;
-  padding-top: 150px; }
+  padding-top: 150px;
+  background-size: cover !important;
+  background-position: center !important; }
   .homepage-hero h2.headline {
     margin-top: 135px; }
   .homepage-hero h3.subtitle {
