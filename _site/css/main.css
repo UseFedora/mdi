@@ -2235,6 +2235,11 @@ h2.section-title {
   .btn-primary:hover, .btn-primary:focus:hover, .btn-primary:focus:hover, .btn-primary:focus:focus:hover, .btn-primary:active:hover, .btn-primary:active:focus:hover {
     background: #489e66 !important; }
 
+a {
+  color: #50af71; }
+  a:hover {
+    color: #50af71; }
+
 /* Hero */
 .homepage-hero {
   height: 685px;
@@ -2263,7 +2268,9 @@ h2.section-title {
 
 /* Content */
 .description-row {
-  text-align: center; }
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 55px; }
   .description-row p {
     font-size: 21px;
     font-weight: 200;
@@ -2361,6 +2368,19 @@ h2.section-title {
   font-size: 17px; }
   .featuring-row .person em {
     font-weight: 200; }
+.featuring-row .bonus {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: 200; }
+
+.faq-row {
+  text-align: left; }
+  .faq-row h2.section-title {
+    text-align: center;
+    margin-bottom: 45px; }
+  .faq-row .faq-answer {
+    line-height: 29px; }
 
 /*
 RESPONSIVE.SCSS: responsive layout tweaks for breakpoints

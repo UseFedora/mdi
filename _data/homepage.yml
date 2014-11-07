@@ -54,6 +54,7 @@ learn:
 
 signup:
   title: "Sign up to get notified"
+  button: "Notify me"
 
 letter:
   title: "A Letter from Ankur"
@@ -103,7 +104,22 @@ featuring:
     - name: "Scott Britton"
       role: "Instructor, GrowHack"
       image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+  bonus: "...and including <strong>$1,000</strong> of free bonuses"
 
+signup_2:
+  title: "Get a free lesson when this course launches"
+  button: "Sign me up"
 
-
-
+faq:
+  title: "Frequently Asked Questions"
+  qa:
+    - question: "What plan do you recommend?"
+      answer: "We recommend you start with the Free plan and try the service before deciding to upgrade to any of the more powerful plans."
+    - question: "Does Fedora charge a setup fee?"
+      answer: "There are absolutely no set up fees of any kind - you can launch your school entirely for free."
+    - question: "Who pays for hosting and video bandwidth?"
+      answer: "All content hosting (including video) is completely included in the Fedora monthly and transaction fees. And yes, there is no limit to your bandwidth usage."
+    - question: "Am I allowed to offer free courses with Fedora?"
+      answer: "Absolutely - you can offer free courses and there are no transaction fees with free courses at all. If you don't make money, we don't make money."
+    - question: "How do transaction fees work?"
+      answer: "Every time a user purchases anything on your school, we collect the Transaction Fee according to your plan - the greater your monthly plan, the lower your transaction fee. You'll never have to pay more than the sale price of the course though - so if you are on the Free plan and sell a course for a $1, we'll only take $1 and not $1.10."

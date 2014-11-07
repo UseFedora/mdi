@@ -32,6 +32,13 @@ h2.section-title {
   }
 }
 
+a {
+  color :$button-color;
+
+  &:hover {
+    color :$button-color;
+  }
+}
 
 /* Hero */
 .homepage-hero {
@@ -75,6 +82,8 @@ h2.section-title {
 /* Content */
 .description-row {
   text-align: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
 
   p {
     font-size: 21px;
@@ -216,5 +225,25 @@ h2.section-title {
     em {
       font-weight:200;
     }
+  }
+
+  .bonus {
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 200;
+  }
+}
+
+.faq-row {
+  text-align: left;
+
+  h2.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .faq-answer {
+    line-height: 29px;
   }
 }
