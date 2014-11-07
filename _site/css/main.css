@@ -2225,15 +2225,16 @@ h2.section-title {
   color: #57986d !important;
   font-size: 35px; }
 
-.btn-primary, .btn-primary:focus, .btn-primary:active {
+.btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary[disabled] {
   background: #50af71;
   border: 1px solid #50af71;
   border-radius: 5px !important;
   padding: 15px 40px !important;
   box-shadow: 0px 2px 0px 1px #e2f1ef;
   text-decoration: none; }
-  .btn-primary:hover, .btn-primary:focus:hover, .btn-primary:focus:hover, .btn-primary:focus:focus:hover, .btn-primary:active:hover, .btn-primary:active:focus:hover {
-    background: #489e66 !important; }
+  .btn-primary:hover, .btn-primary:focus:hover, .btn-primary:focus:hover, .btn-primary:focus:focus:hover, .btn-primary:active:hover, .btn-primary:active:focus:hover, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus:hover {
+    background: #489e66 !important;
+    border: 1px solid #489e66 !important; }
 
 a {
   color: #50af71; }
@@ -2332,7 +2333,7 @@ a {
     margin-bottom: 7px;
     font-size: 20px;
     text-align: center;
-    transition: 0.3s all ease; }
+    transition: 0.1s all ease; }
     .signup-row input[type="textbox"]:focus {
       box-shadow: 0px 0px 3px 1px #ccc !important;
       outline: none !important; }
