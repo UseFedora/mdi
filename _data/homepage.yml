@@ -123,3 +123,9 @@ faq:
       answer: "Absolutely - you can offer free courses and there are no transaction fees with free courses at all. If you don't make money, we don't make money."
     - question: "How do transaction fees work?"
       answer: "Every time a user purchases anything on your school, we collect the Transaction Fee according to your plan - the greater your monthly plan, the lower your transaction fee. You'll never have to pay more than the sale price of the course though - so if you are on the Free plan and sell a course for a $1, we'll only take $1 and not $1.10."
+
+footer:
+  copyright: "&copy; 2014, Million Dollar Instructor"
+  contact: "Get in touch"
+  email: "ankur@usefedora.com"
+      
