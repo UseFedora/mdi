@@ -1,6 +1,6 @@
 hero:
   image: "images/hero-2.jpg"
-  heading: "The BitFountainTest7 Story"
+  heading: "The BitFountain Story"
   subtitle: "Learn how John and Eliot, the founders of <a href='javascript:void(0)'>Bitfountain.io</a>, are going to make over $1m selling online courses in 2014."
 
 
@@ -13,21 +13,21 @@ about:
   title: "About the course"
   first_paragraph: "<strong><span class='underline'>Million Dollar Instructor</span></strong> is a series of video lessons and tutorials that will take you behind the scenes and teach you every trick in the trade that John and Eliot, the founders of Bitfountain.io have used to create incredibly engaging and positively reviewed online courses that have been taken by over <span class='underline'>100,000 students</span></p><p>How good are these courses exactly?</p><p>Well, try this. The Complete iOS7 Course was #1 on Product Hunt, #1 on Reddit’s r/learnprogramming, the top-selling course on Udemy at the time… and the #2 top-selling course on Stack Social ever.</p><p>Only #2… who did it lose to? Their Complete iOS8 Course :)</p><p>In fact, this puts Bitfountain.io on track to make over $1m just this year:"
   income_table:
-    - month: "April"
+    - month: "April 2014"
       income: "$177,430.50"
-    - month: "May"
+    - month: "May 2014"
       income: "$107,953.43"
-    - month: "June"
+    - month: "June 2014"
       income: "$51,141.56"
-    - month: "July"
+    - month: "July 2014"
       income: "$79,69.19"
-    - month: "August"
+    - month: "August 2014"
       income: "$139,370.16"
-    - month: "September"
+    - month: "September 2014"
       income: "$181,265.44"
-    - month: "October"
+    - month: "October 2014"
       income: "?"
-  second_paragraph: "They also share the marketing and promotion strategies they used to scale their business up to the <span class='underline'>tune of over $1m net to them in 2014</span>. The course is rounded off with interviews from the best teacher entrepreneurs there are - along with a goodie bag with all the free software you need to <span class='underline'>start your own online teaching business</span>."
+  second_paragraph: "This course is built to share every trick in their playbook across three engaging sections:<p><strong>1) How to Create an Amazing Course</strong> - Bitfountain is testament to the fact that a better product will always beat marketing gimmickry in the long run. There is no substitute to building an amazing course that helps students achieve learning outcomes - and Bitfountain shares their process for finding a great and marketable course idea, structuring course curriculum and the specific tools and processes they employed to create amongst the top rated courses of all time.</p><p><strong>2) How to Sell an Amazing Course</strong> - As you already know creating a great course is just the first step in the process. In this section, John and Eliot break down specifically what they have done to get their course distributed pretty much everywhere. From abstract ideas such as when should you start marketing your course (hint: NOW) to specific strategies to best leverage 50+ unique channels like course marketplaces, deal websites to Reddit - this is the most comprehensive course marketing guide in the world.</p><p><strong>3) Expert Interviews</strong> - To supplement the Bitfountain story, we decided to interview 10+ of the most successful teacher entrepreneurs out there. From learning how Paul Solt presold $100k+ of classes on Kickstarter to how Mark Lassoff leverages the Amazon and Safari bookstores to make sales, we have incredibly insightful interviews from the other million dollar instructors out there."
   call_to_action: "Notify me when this course launches"
 
 learn:
