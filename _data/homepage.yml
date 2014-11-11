@@ -5,9 +5,9 @@ hero:
 
 
 testimonial:
-  quote: "I love the simplicity of the user interface and the ability to motivate motivate students through videos, written lectures, quizzes, and supplemental materials."
-  person: "<strong>Conrad Wadowski</strong>, <em>Instructor</em>"
-  image: "https://graph.facebook.com/conradwadowski/picture?width=300&amp;height=300"
+  quote: "At Fedora, we power technology for over 2,000 instructors and we have NEVER seen any other teachers get such amazingly high ratings and generate such insane sale numbers in such a short period of time. We knew we had to tell their story."
+  person: "<strong>Ankur Nagpal</strong>, <em>Founder of <a href='https://usefedora.com/?src=mdi-quote'>Fedora</a></em>"
+  image: "https://graph.facebook.com/ankurnagpal/picture?width=300&amp;height=300"
 
 about:
   title: "About the course"
@@ -102,8 +102,8 @@ featuring:
       role: "Instructor, GrowHack"
       image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
     - name: "Scott Britton"
-      role: "Instructor, GrowHack"
-      image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
+      role: "Learn how Scott has made $50k on course marketplaces in the last 3 months."
+      image: "https://graph.facebook.com/scottbrit/picture?width=400&height=400"
   bonus: "...and including <strong>$1,000</strong> of free bonuses"
 
 signup_2:
