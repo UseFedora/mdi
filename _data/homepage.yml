@@ -29,7 +29,7 @@ about:
       income: "$132,117.08"
     - month: "November 2014"
       income: "?"
-  second_paragraph: "This course is built to share every trick in their playbook across three engaging sections:<p><strong>1) How to Create an Amazing Course</strong><br/>Bitfountain is testament to the fact that a better product will always beat marketing gimmickry in the long run. There is no substitute to building an amazing course that helps students achieve learning outcomes - and Bitfountain shares their process for finding a great and marketable course idea, structuring course curriculum and the specific tools and processes they employed to create amongst the top rated courses of all time.</p><p><strong>2) How to Launch</strong> - As you already know creating a great course is just the first step in the process. In this section, John and Eliot break down specifically what they have done to get their course distributed pretty much everywhere. From abstract ideas such as when should you start marketing your course (hint: NOW) to specific strategies to best leverage 50+ unique channels like course marketplaces, deal websites to Reddit - this is the most comprehensive course marketing guide in the world.</p><p><strong>3) Expert Interviews</strong> - To supplement the Bitfountain story, we decided to interview 10+ of the most successful teacher entrepreneurs out there. From learning how Paul Solt presold $100k+ of classes on Kickstarter to how Mark Lassoff leverages the Amazon and Safari bookstores to make sales, we have incredibly insightful interviews from the other million dollar instructors out there."
+  second_paragraph: "This course is built to share every trick in their playbook across three engaging sections:<p><strong>1) How to Create an Amazing Course</strong><br/>Bitfountain is testament to the fact that a better product will always beat marketing gimmickry in the long run. There is no substitute to building an amazing course that helps students achieve learning outcomes - and Bitfountain shares their process for finding a great and marketable course idea, structuring course curriculum and the specific tools and processes they employed to create amongst the top rated courses of all time.</p><p><strong>2) How to Launch</strong><br/>As you already know creating a great course is just the first step in the process. In this section, John and Eliot break down specifically what they have done to get their course distributed pretty much everywhere. From abstract ideas such as when should you start marketing your course (hint: NOW) to specific strategies to best leverage 50+ unique channels like course marketplaces, deal websites to Reddit - this is the most comprehensive course marketing guide in the world.</p><p><strong>3) Expert Interviews</strong><br/>To supplement the Bitfountain story, we decided to interview 10+ of the most successful teacher entrepreneurs out there. From learning how Paul Solt presold $100k+ of classes on Kickstarter to how Mark Lassoff leverages the Amazon and Safari bookstores to make sales, we have incredibly insightful interviews from the other million dollar instructors out there."
   call_to_action: "Notify me when this course launches"
 
 learn:
@@ -55,11 +55,11 @@ learn:
       description: "Keeping students happy, future content pipeline and other kinds of digital products"
 
 signup:
-  title: "Sign Up to Get Notified When Open the Course"
+  title: "Sign Up to Get Notified When This Course Opens"
   button: "Notify me"
 
 letter:
-  title: "A Letter from Ankur"
+  title: "A Letter from Ankur<br/><small>Founder of Fedora</small>"
   image: "https://pbs.twimg.com/profile_images/378800000380805572/5a1ed3ef902a69e7fdfe46dd03c2c666_400x400.jpeg"
   contents:
     - paragraph: "<strong>Everything we knew about education has changed.</strong>"
