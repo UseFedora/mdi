@@ -10,7 +10,7 @@ testimonial:
   image: "https://pbs.twimg.com/profile_images/474218533765656576/Hfnl7Nqb_400x400.jpeg"
 
 about:
-  title: "About the course"
+  title: "About the Course"
   first_paragraph: "<strong><span class='underline'>Million Dollar Instructor</span></strong> is a series of video lessons and tutorials that will take you behind the scenes and teach you every trick in the trade that John and Eliot, the founders of Bitfountain.io have used to create incredibly engaging and positively reviewed online courses that have been taken by over <span class='underline'>100,000 students</span></p><p>How good are these courses exactly?</p><p>Well, try this. The Complete iOS7 Course was #1 on Product Hunt, #1 on Reddit’s r/learnprogramming, the top-selling course on Udemy at the time… and the #2 top-selling course on Stack Social ever.</p><p>Only #2… who did it lose to? Their Complete iOS8 Course :)</p><p>In fact, this puts Bitfountain.io on track to make over $1m just this year:"
   income_table:
     - month: "April 2014"
