@@ -1,7 +1,7 @@
 hero:
   image: "images/hero-2.jpg"
   heading: "Million Dollar Instructor"
-  subtitle: "The Modern Playbook to Create and Launch a Successful Online Course"
+  subtitle: "The Most Comprehensive Playbook to Create and Launch a Successful Online Course"
 
 
 testimonial:
@@ -33,30 +33,30 @@ about:
   call_to_action: "Notify me when this course launches"
 
 learn:
-  title: "What you will learn"
+  title: "In this course you will learn"
   points:
     - number: "1"
       title: "Have a Killer Idea"
       description: "How to find a great course idea and evaluate its potential for success before recording any content"
     - number: "2"
       title: "Research, Script Writing "
-      description: "Research, preparation and script writing techniques that will save you countless hours in production"
+      description: "Research, preparation and script writing techniques that will save you countless hours in production time"
     - number: "3"
       title: "Create a High Quality Production"
-      description: "The specific steps and tools used to create a world-class course"
+      description: "The specific steps and tools you need to create a world-class course that makes an impact"
     - number: "4"
       title: "Pre-Launch Marketing"
-      description: "Create landing pages, e-mail campaigns and building excitement before your course is ready"
+      description: "The specific landing pages and e-mail campaign copy and guidelines you need to build excitement before your course is ready"
     - number: "5"
       title: "Complete Guide to Selling"
       description: "The most effective strategies and tactics that Fedora has seen 1000+ courses on its platform employ"
     - number: "6"
       title: "Building a Business"
-      description: "Ensuring ridiculously happy students, creating a future digital product pipeline"
+      description: "Ensuring ridiculously happy students and how to create a future digital product pipeline"
 
 signup:
-  title: "Sign Up to Get Notified When This Course Opens"
-  button: "Notify me"
+  title: "Get a free lesson when this course launches"
+  button: "Sign me up"
 
 letter:
   title: "A Letter from Eliot<br/><small>Founder at Bitfoundtain.io</small>"
@@ -76,7 +76,7 @@ letter:
     - paragraph: "We’re looking forward to seeing the splash this course makes in the world. Sign up below to get your first lesson completely free."
     - paragraph: "As we get ready for our launch, you can up below to get your first lesson completely free."
     - paragraph: "See you soon!"
-    - paragraph: "Eliot Arntz and John Azzi, Founders at Bitfountain.io"
+    - paragraph: "Eliot Arntz and John Azzi, Founders at the online school, Bitfountain.io"
     - paragraph: ""
 
 featuring:
@@ -120,11 +120,11 @@ faq:
     - question: "How much does this course cost?"
       answer: "We have not determined pricing yet - but it will likely be around $100 for a limited time after launch."
     - question: "When will this course open?"
-      answer: "We are aiming to open this course for a couple of days around December 15th. After allowing enrollments for a couple of days, we are going to focus on helping the students inside the course achieve results... based on how time-consuming it is, we might open it again in the future. To ensure you don't miss out on a spot, "
+      answer: "We're looking to launch the course for a couple of days around December 15th. After opening enrollments for a couple of days, we are going to focus on helping the students inside the course achieve results. Based on how much time we have to invest, we may open up sign ups again in the future. To ensure you don't miss out on a spot, write a note to watch your email around December 15th. "
     - question: "Is there any specialized equipment that I will need?"
-      answer: "Not at all in terms of accessing the course - this course should be compatible with any computer with an Internet connection. However, if you are serious about producing a high-quality online course you probably will need to invest in recording equipment. In the course, Bitfountain makes specific recommendations on what equipment to purchase based on your budget. Additionally, all the software products discussed in the course (Fedora, ConvertKit, SumoMe) is available as a free bonus to people that purchase the course."
+      answer: "While technically all you need to launch your course will be an internet connection, laptop and mic, as your business grows we'll walk you through using the specific recording equiptment we've used to create high-quality productions. Additionally, all the software products discussed in the course such as Fedora, ConvertKit and SumoMe will be available as a free bonus to anyone who purchases the course."
     - question: "What is the refund policy?"
-      answer: "If you are unhappy with the course for absolutely any reason for 30 days after purchase, we'll refund 100% of your money without asking any questions."
+      answer: "If you are unhappy with the course for absolutely any reason 30 days after purchase, we'll refund 100% of your money without asking any questions."
 
 footer:
   copyright: "&copy; 2014, Million Dollar Instructor"
