@@ -56,11 +56,11 @@ learn:
 
 signup:
   title: "Get a free lesson when this course launches"
-  subtitle: "Online Courses are the Future of Media"
   button: "Sign me up"
 
 letter:
   title: "A Letter from John<br/><small>Co-Founder at Bitfountain.io</small>"
+  subtitle: "Online Courses are the Future of Media"
   image: "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/000/1a3/3b4/31df92b.jpg"
   contents:
     - paragraph: "<strong>Everything we knew about education has changed.</strong>"
