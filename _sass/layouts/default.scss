@@ -57,9 +57,8 @@ a {
   }
 
   h3.subtitle {
-    color: #fff !important;
-    margin-top: 35px !important;
-    font-size: 37px !important;
+    margin-top: 12px !important;
+    font-size: 34px !important;
     line-height: 49px !important;
     color: rgba(255,255,255,0.9) !important;
 
@@ -69,9 +68,30 @@ a {
     }
   }
 
+  h3.signup-form-title {
+    margin-bottom: 19px;
+    color: #fff !important;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+
+  .black-transparent-bg {
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding-bottom: 14px;
+  }
+
   .signup-form {
     input {
       width: 100%;
+    }
+
+    input[type="textbox"] {
+      background: rgba(255,255,255,0.8);
+    }
+
+    input[type="textbox"]::-webkit-input-placeholder {
+      color: rgba(0,0,0,0.5);
     }
 
     .col-sm-4, .col-xs-4 {

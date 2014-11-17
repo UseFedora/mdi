@@ -51,15 +51,19 @@ background-position: center !important;">
       <h2 class="headline">{{site.data.homepage.hero.heading}}</h2>
       <h3 class="subtitle col-sm-8 col-sm-offset-2">{{site.data.homepage.hero.subtitle}}</h3>
     </div>
+    
     <br><br><br>
+
     <div class="row">
+      <div class="black-transparent-bg col-sm-10 col-sm-offset-1">
+        <h3 class="signup-form-title text-center">{{site.data.homepage.signup.title}}</h3>
         <div id='ck_success_msg'  style='display:none;'>
           <p>Thanks! Now check your email.</p>
         </div>
         <p class="ck_errorArea"></p>
 
         <!--  Form starts here  -->
-        <form id="ck_subscribe_form" class="signup-form col-sm-10 col-sm-offset-1" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
+        <form id="ck_subscribe_form" class="signup-form" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
           <input type="hidden" name="id" value="913" id="landing_page_id"></input>
             <div class="col-xs-4 col-sm-4">
               <input name="first_name" id="ck_firstNameField" required type="textbox" placeholder="Enter first name">
@@ -73,7 +77,7 @@ background-position: center !important;">
               <input class="btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
             </div>
         </form>
-
+      </div>
     </div>
   </div>
 </div>
