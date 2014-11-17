@@ -37,10 +37,10 @@ learn:
   points:
     - number: "1"
       title: "Have a Killer Idea"
-      description: "How to find a great course idea and evaluate its potential for success before recording any content"
+      description: "How to find a great course idea and evaluate its potential for success before developing any content"
     - number: "2"
       title: "Research, Script Writing "
-      description: "Research, preparation and script writing techniques that will save you countless hours in production time"
+      description: "Research and script writing techniques that will save you countless hours of production time"
     - number: "3"
       title: "Create a High Quality Production"
       description: "The specific steps and tools you need to create a world-class course that makes an impact"
@@ -52,7 +52,7 @@ learn:
       description: "The most effective strategies and tactics that Fedora has seen 1000+ courses on its platform employ"
     - number: "6"
       title: "Building a Business"
-      description: "Ensuring ridiculously happy students and how to create a future digital product pipeline"
+      description: "Ensuring ridiculously happy students that will tell others about your course and how to create a future digital product pipeline"
 
 signup:
   title: "Get a free lesson when this course launches"
