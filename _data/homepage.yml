@@ -41,7 +41,7 @@ learn:
       title: "Research, Script Writing "
       description: "Research and script writing techniques that will save you countless hours of production time"
     - number: "3"
-      title: "Create a High Quality Production"
+      title: "Create a High-quality Production"
       description: "The specific steps and tools you need to create a world-class course that makes an impact"
     - number: "4"
       title: "Pre-Launch Marketing"
@@ -129,5 +129,5 @@ faq:
 footer:
   copyright: "&copy; 2014, Million Dollar Instructor"
   contact: "Get in touch"
-  email: "conrad@usefedora.com"
+  email: "ankur@usefedora.com"
       
