@@ -6,7 +6,7 @@ hero:
 
 testimonial:
   quote: "After making $1M reaching over 100,000 students with our online courses since April this year, we decided to put this course together to show how anyone can start from scratch to profit from their own online course."
-  person: "<strong>Eliot Arntz</strong>, <em>Co-Founder at Bitfountain.io</a></em>"
+  person: "<strong>Eliot Arntz</strong>, <em>Co-Founder at online school, Bitfountain.io</a></em>"
   image: "https://d2vvqscadf4c1f.cloudfront.net/SiIUb8dRiqltbq6VVtDT_93f1547d32a37b972ec733e65c2d63e4.jpeg"
 
 about:
@@ -14,22 +14,22 @@ about:
   first_paragraph: "<p>One of the biggest changes happening today, is the shift toward online education.</p><p>Today, there is a growing number of individual “teacher entrepreneurs” organizing what they know on any topic you can imagine into making thousands or in some case over a hundred thousand dollars in income every month.</p><p>The benefits of teaching an online course are remarkable. Unlike any other form, structuring what you know in a course allows you to create a connection with your audience, whether that’s to build your own following or to promote your company.</p><p>How did this come to be? In recent years, all the parts you need to produce courses – the best practices, technology and open distribution channels – have all become available for anyone to use.</p><p><strong><span class='underline'>Million Dollar Instructor</span></strong> is the comprehensive set of video lessons that will take you behind the scenes and teach you everything you need to create and launch an online course – from the best in the industry.</p><p>Throughout, you’ll be led by John Nichols and Eliot Arntz, Founders of the independent course studio Bitfountain.io. They’ll take you from their beginning to their incredible success – since April this year, John and Eliot have produced courses which have generated over $1M in revenue:</p>"
   income_table:
     - month: "April 2014"
-      income: "$177,430.50"
+      income: "$151,319.64"
     - month: "May 2014"
-      income: "$107,953.43"
+      income: "$87,983.50"
     - month: "June 2014"
-      income: "$51,141.56"
+      income: "$210,702.39"
     - month: "July 2014"
-      income: "$79,69.19"
+      income: "$425,093.23"
     - month: "August 2014"
-      income: "$139,370.16"
+      income: "$273,656.70"
     - month: "September 2014"
-      income: "$181,265.44"
+      income: "$324,875.24"
     - month: "October 2014"
-      income: "$132,117.08"
+      income: "$196,485.45"
     - month: "November 2014"
       income: "?"
-  second_paragraph: "<p>You may have a variety of goals before coming into this course – to get background on creating an online course, to create your first short course to promote your company, grow your thought leadership while making income on the side, or to learn the best practices to become a 'teacher entrepreneur.'</p><p>This course will take from scratch all the way to publishing and distributing your course, namely:</p><strong><p>Part 1: Develop your course</strong><br/>How you should pick your topic and test market demand for it. You’ll learn how to evaluate the success of your topic before investing time and energy much into producing the content. </p><p>You’ll also learn how to develop amazing content, without the need for expensive tools and software. You’ll also get the specific research and scripting skills that will save you significant time while you’re creating content. </p> <strong><p>Part 2: Market your course</strong><br/>Here, we’ll bring in folks we’ve gotten to know along our journey such as Conrad Wadowski and Ankur Nagpal who will take you into topics such as pricing your course, structuring a successful pre-launch and ultimately getting your course successfully out of the gates. </p><p>This section will include details on when you should start promoting (hint: NOW) and include the landing pages and copy from email campaigns you can use to build excitement before your course is ready. </p><p>From there, we’ll show you how to promote your course including the complete list of strategies and tactics the best are using such as Business Development, Reddit, eBooks, KickStarter, Business Development, Email and more than 10 others. </p><p>Afterwards, we’ll go into what happens post-purchase, including keeping students really happy, creating a pipeline of future digital products and setting yourself up to make these campaigns create engaged fans. </p><p>On top of this detailed content, this course will also include over 6 hours of interviews from 10 of the most successful teacher entrepreneurs including Nathan Berry who sold more than $500,000 in educational products and Mark Lassoff who leverages the Amazon and Safari bookstores to make sales and drive traffic to his courses.</p>”
+  second_paragraph: "<p>You may have a variety of goals before coming into this course – to get background on creating an online course, to create your first short course to promote your company, grow your thought leadership while making income on the side, or to learn the best practices to become a 'teacher entrepreneur.'</p><p>This course will take from scratch all the way to publishing and distributing your course, namely:</p><strong><p>Part 1: Develop your course</strong><br/>How you should pick your topic and test market demand for it. You’ll learn how to evaluate the success of your topic before investing time and energy much into producing the content. </p><p>You’ll also learn how to develop amazing content, without the need for expensive tools and software. You’ll also get the specific research and scripting skills that will save you significant time while you’re creating content. </p> <strong><p>Part 2: Market your course</strong><br/>Here, we’ll bring in folks we’ve gotten to know along our journey such as Conrad Wadowski and Ankur Nagpal who will take you into topics such as pricing your course, structuring a successful pre-launch and ultimately getting your course successfully out of the gates.</p><p>This section will include details on when you should start promoting (hint: NOW) and include the landing pages and copy from email campaigns you can use to build excitement before your course is ready. </p><p>From there, we’ll show you how to promote your course including the complete list of strategies and tactics the best are using such as Business Development, Reddit, eBooks, KickStarter, Business Development, Email and more than 10 others. </p><p>Afterwards, we’ll go into what happens post-purchase, including keeping students really happy, creating a pipeline of future digital products and setting yourself up to make these campaigns create engaged fans. </p><p>On top of this detailed content, this course will also include over 6 hours of interviews from 10 of the most successful teacher entrepreneurs including Nathan Berry who sold more than $500,000 in educational products and Mark Lassoff who leverages the Amazon and Safari bookstores to make sales and drive traffic to his courses.</p>"
   call_to_action: "Notify me when this course launches"
 
 learn:
@@ -40,19 +40,19 @@ learn:
       description: "How to find a great course idea and evaluate its potential for success before recording any content"
     - number: "2"
       title: "Research, Script Writing "
-      description: "Research, preparation and script writing that will save you a ton of time before content production."
+      description: "Research, preparation and script writing techniques that will save you countless hours in production"
     - number: "3"
       title: "Create a High Quality Production"
-      description: "The specific process used by Bitfountain to create a high-quality, engaging production."
+      description: "The specific steps and tools used to create a world-class course"
     - number: "4"
       title: "Pre-Launch Marketing"
-      description: "Creating landing pages, e-mail campaigns and building excitement before your course is ready"
+      description: "Create landing pages, e-mail campaigns and building excitement before your course is ready"
     - number: "5"
       title: "Complete Guide to Selling"
-      description: "The complete list of strategies and tactics that Fedora has seen 1000+ courses on its platform employ"
+      description: "The most effective strategies and tactics that Fedora has seen 1000+ courses on its platform employ"
     - number: "6"
       title: "Building a Business"
-      description: "Keeping students happy, future content pipeline and other kinds of digital products"
+      description: "Ensuring ridiculously happy students, creating a future digital product pipeline"
 
 signup:
   title: "Sign Up to Get Notified When This Course Opens"
@@ -76,7 +76,7 @@ letter:
     - paragraph: "We’re looking forward to seeing the splash this course makes in the world. Sign up below to get your first lesson completely free."
     - paragraph: "As we get ready for our launch, you can up below to get your first lesson completely free."
     - paragraph: "See you soon!"
-    - paragraph: "Eliot and John, Founders at Bitfountain.io"
+    - paragraph: "Eliot and John Azzi, Founders at Bitfountain.io"
     - paragraph: ""
 
 featuring:
