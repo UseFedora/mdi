@@ -41,27 +41,47 @@ a {
   }
 }
 
+.logo {
+  width: 300px;
+}
+
 /* Hero */
 .homepage-hero {
   height: 685px;
-  padding-top: 150px;
+  padding-top: 100px;
   background-size: cover !important;
   background-position: center !important;
 
   h2.headline {
-    margin-top: 135px;
+    margin-top: 115px;
   }
 
   h3.subtitle {
     color: #fff !important;
-    margin-top: 55px !important;
-    font-size: 26px !important;
-    line-height: 41px !important;
+    margin-top: 35px !important;
+    font-size: 37px !important;
+    line-height: 49px !important;
     color: rgba(255,255,255,0.9) !important;
 
     a {
       color: rgba(255,255,255,0.9) !important;
       text-decoration: underline;
+    }
+  }
+
+  .signup-form {
+    input {
+      width: 100%;
+    }
+
+    .col-sm-4, .col-xs-4 {
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+
+    .btn-primary {
+      box-shadow: none;
+      padding: 13px 20px !important;
     }
   }
 }
@@ -77,7 +97,7 @@ a {
   }
 
   .large-img-rounded {
-    margin-top: -90px !important;
+    margin-top: -14px !important;
   }
 }
 
@@ -165,7 +185,9 @@ a {
     color: $black !important;
     margin-top: 0px;
   }
+}
 
+.signup-form {
   input[type="textbox"] {
     padding: 15px 20px;
     border-radius: 5px;
