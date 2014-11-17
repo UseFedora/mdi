@@ -6,7 +6,7 @@ hero:
 
 testimonial:
   quote: "After making $1M reaching over 100,000 students with our online courses since April this year, we decided to put this course together to show how anyone can start from scratch to profit from their own online course."
-  person: "<strong>Eliot Arntz</strong>, <em>Co-Founder at online school, Bitfountain.io</a></em>"
+  person: "<strong>Eliot Arntz</strong>, <em>Co-Founder at Online School, Bitfountain.io</a></em>"
   image: "https://d2vvqscadf4c1f.cloudfront.net/SiIUb8dRiqltbq6VVtDT_93f1547d32a37b972ec733e65c2d63e4.jpeg"
 
 about:
@@ -59,7 +59,7 @@ signup:
   button: "Sign me up"
 
 letter:
-  title: "A Letter from John<br/><small>Founder at Bitfoundtain.io</small>"
+  title: "A Letter from John<br/><small>Co-Founder at Bitfoundtain.io</small>"
   image: "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/000/1a3/3b4/31df92b.jpg"
   contents:
     - paragraph: "<strong>Everything we knew about education has changed.</strong>"
