@@ -59,8 +59,8 @@ signup:
   button: "Sign me up"
 
 letter:
-  title: "A Letter from Eliot<br/><small>Founder at Bitfoundtain.io</small>"
-  image: "https://d2vvqscadf4c1f.cloudfront.net/SiIUb8dRiqltbq6VVtDT_93f1547d32a37b972ec733e65c2d63e4.jpeg"
+  title: "A Letter from John<br/><small>Founder at Bitfoundtain.io</small>"
+  image: "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/000/1a3/3b4/31df92b.jpg"
   contents:
     - paragraph: "<strong>Everything we knew about education has changed.</strong>"
     - paragraph: "When we first started teaching online we had no idea it was possible to make this type of impact with teaching."
@@ -76,7 +76,7 @@ letter:
     - paragraph: "We’re looking forward to seeing the splash this course makes in the world. Sign up below to get your first lesson completely free."
     - paragraph: "As we get ready for our launch, you can up below to get your first lesson completely free."
     - paragraph: "See you soon!"
-    - paragraph: "Eliot Arntz and John Azzi, Founders at the online school, Bitfountain.io"
+    - paragraph: " John Azzi and Eliot Arntz, Founders at Bitfountain.io"
     - paragraph: ""
 
 featuring:
