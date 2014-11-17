@@ -1,13 +1,13 @@
 hero:
   image: "images/hero-2.jpg"
-  heading: "The BitFountain Story"
-  subtitle: "Learn how John and Eliot, the founders of <a href='javascript:void(0)'>Bitfountain.io</a>, are on track to make over $1mm selling online courses in 2014."
+  heading: "Create and Profit from Your Own Online Course"
+  subtitle: ""
 
 
 testimonial:
-  quote: "Using the strategies outlined in the Million Dollar Instructor, I was able to launch my first online course and generate hundreds of dollars a week in passive income."
-  person: "<strong>Ryan Kulp</strong>, <em>YC and Techstars-Alum Marketer, Teaches <a href='https://usefedora.com/?src=mdi-quote'>Sales Hacking</a></em>"
-  image: "https://pbs.twimg.com/profile_images/474218533765656576/Hfnl7Nqb_400x400.jpeg"
+  quote: "After taking home our first $1M in online course sales and reaching over 100,000 students as of April this year, we decided show how anyone can start from scratch to profiting from their own online course, regardless of the size."
+  person: "<strong>Eliot Arntz</strong>, <em>Co-Founder at '>Bitfountain.io</a></em>"
+  image: "https://d2vvqscadf4c1f.cloudfront.net/SiIUb8dRiqltbq6VVtDT_93f1547d32a37b972ec733e65c2d63e4.jpeg"
 
 about:
   title: "About the Course"
