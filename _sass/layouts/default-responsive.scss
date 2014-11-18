@@ -39,19 +39,29 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 
 /* Extra small screen / phone */
 @media (min-width: 0px) and (max-width: 373px) {
-	.logo {
-	  width: 100%;
-	}
 }
 
 @media (min-width: 0px) and (max-width: $screen-xs-max) {
+	.logo {
+	  display: none;
+	}
+
 	h2.headline {
-		margin-top: 105px !important;
+		margin-top: 50px !important;
 		font-size: 33px !important; 
+	}
+
+	h3.subtitle {
+		font-size: 21px !important;
+		line-height: 29px !important;
 	}
 
 	h2.section-title {
 		font-size: 33px !important; 
+	}
+
+	.black-transparent-bg {
+		float: left;
 	}
 
 	.btn-primary {
@@ -60,19 +70,26 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 	}
 }
 
+@media (min-width: $screen-xs-max) {
+	h3.subtitle {
+		font-size: 34px !important;
+    line-height: 49px !important;
+  }
+}
+
 
 /* Tablets and below */
-@media (max-width: $screen-sm-max) {
+@media (min-width: $screen-xs-max) and (max-width: $screen-sm-max) {
 
 	h2.heading {
 		font-size: 38px;
 	}
 
 	h3.subtitle {
-		font-size: 20px !important;
-		margin-top: 18px !important;
-		line-height: 27px !important;
+		font-size: 31px !important;
+		line-height: 39px !important;
 	}
+
 
 }
 
