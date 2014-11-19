@@ -106,7 +106,18 @@ featuring:
     - name: "Scott Britton"
       role: "Learn how Scott has made $50K on course marketplaces in the last 3 months."
       image: "https://graph.facebook.com/scottbrit/picture?width=400&height=400"
-  bonus: "...and including <strong>$1,000</strong> of free bonuses"
+  bonus: "...and including <span class='color-bold'>$1,000+</span> of free bonuses"
+
+bonuses:
+  - logo: "<a href='http://usefedora.com/'><img src='http://usefedora.com/images/logos/Fedora_Logo_v2_fixed.png'></a>"
+    text: "<strong>3 free months</strong> of any <a href='http://usefedora.com/'>Fedora</a> plan to build your online school"
+    value: "Value up to $897"
+  - logo: "<a href='http://convertkit.com/'><img src='https://s3-us-west-2.amazonaws.com/static-css-assets/logo/convert-kit.png'></a>"
+    text: "<strong>3 free months</strong> of any <a href='http://convertkit.com'>ConvertKit</a> plan to handle email marketing"
+    value: "Value up to $747"
+  - logo: "<img src='https://s3-us-west-2.amazonaws.com/static-css-assets/icons/question-mark.jpg'>"
+    text: "More bonuses to be announced"
+    value: "$$$"
 
 signup_2:
   title: "Get a free lesson when this course launches"

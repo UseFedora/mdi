@@ -290,6 +290,29 @@ a {
     font-size: 25px;
     margin-top: 50px;
     font-weight: 200;
+    text-align: center
+  }
+
+  .color-bold {
+    color: $heading-color;
+    font-weight: bold;
+  }
+
+  .bonuses {
+
+    .point {
+      margin-top: 50px;
+      margin-bottom: 80px;
+
+      img {
+        height: 35px;
+      }
+
+      .point-description {
+        line-height: 26px;
+        margin-bottom: 10px;
+      }
+    }
   }
 }
 

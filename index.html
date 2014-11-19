@@ -213,15 +213,41 @@ background-position: center !important;">
         
         <div class="row">
             {% for person in site.data.homepage.featuring.people %}
-                <div class="person col-sm-3">
+              {% capture thecycle %}{% cycle 'one', 'two', 'three', 'four' %}{% endcapture %}
+              
+              {% if thecycle == 'one' %}
+              <div class="row">
+              {% endif %}
+
+                <div class="person col-sm-3 col-xs-12">
                     <img class="large-img-rounded img-responsive" src="{{person.image}}">
                     <div class="point-description"><strong>{{person.name}}</strong><br><em>{{person.role}}</em></div>
                 </div>
+
+              {% if thecycle == 'four' %}
+              </div>
+              {% endif %}
             {% endfor %}
         </div>
-
-        <p class="bonus">{{site.data.homepage.featuring.bonus}}</p>
       </div>
+      
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <br><br><br><br><h2 class="section-title">{{site.data.homepage.featuring.bonus}}</h2>
+
+          <div class="row bonuses">
+            <div class="col-sm-12">
+              {% for bonus in site.data.homepage.bonuses %}
+                <div class="point col-sm-4">
+                  <div class="point-title text-center">{{ bonus.logo }}</div>
+                  <div class="point-description text-center">{{ bonus.text }} </div>
+                  <div class="point-description text-center"><span class="color-bold">{{ bonus.value }}</span></div>
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
