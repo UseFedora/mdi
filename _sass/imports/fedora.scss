@@ -1237,7 +1237,15 @@ p.margin-left {
   .description-row h5 {
     font-weight: 14px; }
   .description-row ul {
-    margin-bottom: 25px; }
+    margin-bottom: 25px; 
+    text-align: left;
+    list-style-type:circle;
+  }
+  .description-row ul li {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 35px;
+  }
   .description-row p {
     font-size: 18px;
     font-weight: 200;
