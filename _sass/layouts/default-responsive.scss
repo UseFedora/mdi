@@ -42,9 +42,6 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 }
 
 @media (min-width: 0px) and (max-width: $screen-xs-max) {
-	.logo {
-	  display: none;
-	}
 
 	h2.headline {
 		margin-top: 50px !important;
@@ -67,6 +64,10 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 	.btn-primary {
 		font-size: 15px !important;
 		padding: 10px 20px !important;
+	}
+
+	.homepage-hero {
+		height: 850px !important;
 	}
 }
 
