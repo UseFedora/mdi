@@ -13,11 +13,13 @@ layout: default
     <meta content="wv5oGT590cwxuhWM7Js5EQyJV2xSE97Tb0SN0gTe2qs=" name="csrf-token" />
     <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/static-css-assets/icons/favicons/favicon.ico" type="image/x-icon">
     <link rel="icon" href="https://s3-us-west-2.amazonaws.com/static-css-assets/icons/favicons/favicon.ico" type="image/x-icon">
-    <title>Million Dollar Instructor</title>
-    <meta content="" name="description" />
+    <title>{{ site.data.homepage.seo-title }} </title>
+    <meta content="{{ site.data.homepage.seo-description }}" name="description" />
     <link rel="stylesheet" href="css/main.css">
 
 
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/javascript/script.js"></script>
  
     <!-- CovertKit-->
     <style type="text/css">
@@ -42,109 +44,76 @@ layout: default
   </head>
   <body>
     
+
+<!-- HEADER -->
+
+  <header class="homepage-header">
+    <div class="container">
+      <div class="row">
+
+
+      <!-- LOGO -->
+      <a class="logo col-sm-1 col-md-2">
+        <img class="img-responsive" src="{{ site.data.homepage.header.logo }}" >    
+      </a>
+
+      <div class="col-md-1"></div>
+
+      <!-- Navigation Bar -->
+      <nav class="col-sm-7 col-md-7 row">
+          <div class="navbar-item col-sm-3 cursor-pointer" id="the-summit">The Summit</div>
+          <div class="navbar-item col-sm-3 cursor-pointer" id="the-speakers">The Speakers</div>
+          <div class="navbar-item col-sm-3 cursor-pointer" id="faq">FAQ</div>
+      </nav>
+
+      </div>
+    </div>
+  </header>
     
 <!-- Hero -->
-<div class="homepage-hero" style="background: url('{{site.data.homepage.hero.image}}') !important; background-size: cover !important;
-background-position: center !important;">
+<div class="homepage-hero">
+  <div class="homepage-hero-background"></div>
+  <div class="homepage-hero-overlay"></div>
   <div class="container">
-    <div class="row text-center">
-      <img src="images/logo.png" class="logo">
-    </div>
+  <div class="row">
 
-    <div class="row text-center">
-      <h2 class="headline">{{site.data.homepage.hero.heading}}</h2>
-      <h3 class="subtitle col-sm-8 col-sm-offset-2">{{site.data.homepage.hero.subtitle}}</h3>
+    <div class="col-md-6">
+      <img class="img-responsive" src="{{ site.data.homepage.hero.people-image }}">
     </div>
     
-    <br><br>
+    <div class="col-md-6">
+        <p class="sub-headline text-center">Teachable Presents a Special Live Online Summit:</p> 
+        <!--<h2 class="headline text-center">{{site.data.homepage.hero.heading}}</h2>-->
+        <h2 class="headline text-center"><span>10 World Class Experts Show You How to Launch <em>Your Own</em> Profitable Online Course & Grow Your Business</span></h2>
+        
+        <div class="hero-button-parent">
+          
+          <div class="open-modal open-modal-top btn btn-default btn-primary btn-large btn-block">Get Free Access >></div>
 
-    <div class="row">
-      <div class="black-transparent-bg col-sm-10 col-xs-12 col-sm-offset-1">
-        <h3 class="signup-form-title text-center">{{site.data.homepage.signup.title}}</h3>
-        <div id='ck_success_msg'  style='display:none;'>
-          <p>Thanks! Now check your email.</p>
-        </div>
-        <p class="ck_errorArea"></p>
+        </div> 
+        <p class="button-small-text">Free Virtual Training Event <br/> Ongoing November 18th-25th.</p>
 
-        <!--  Form starts here  -->
-        <form id="ck_subscribe_form" class="signup-form" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
-          <input type="hidden" name="id" value="913" id="landing_page_id"></input>
-            <div class="col-xs-12 col-sm-4">
-              <input name="first_name" id="ck_firstNameField" required type="textbox" placeholder="Enter first name">
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <input name="email" id="ck_emailField" required type="textbox" placeholder="Enter your e-mail">
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <input class="btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
-            </div>
-        </form>
-      </div>
     </div>
   </div>
-</div>
+</div> 
+</div>  
 
-<!-- Testimonial -->
+<!-- ABOUT SUMMIT - HEADEr -->
+<div class="about-summit text-center">
+  <h2 class="about-summit-title section-title" id="scroll-the-summit">Are you a creative, a freelancer, a blogger, designer, consultant, coach or author who wants to grow your business, your income and your impact?</h2>
+
+  <p class="about-summit-longer-text">If so, then we've created this live virtual summit specially for <u><em>you</em></u>. We're bringing in 10 successful entrepreneurs and experts to deliver live, step-by-step workshops to show you exactly how you can create, promote and launch your own profitable online course in the next 30 days.</p>
+
+
+</div>
+    
+    
+<!-- ABOUT SUMMIT - Bullet Points -->
 <div class="testimonial-row instructor-row">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-md-3">
-        <img class="large-img-rounded img-responsive" src="{{site.data.homepage.testimonial.image}}">
-      </div>
-      <div class="col-xs-12 col-md-7 quote-wrapper">
-        <p class="quote">{{site.data.homepage.testimonial.quote}}</p>
-        <p>- {{site.data.homepage.testimonial.person}}</em></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- About the Course -->
-<div class="about-row description-row">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
-        <h2 class="section-title">{{site.data.homepage.about.title}}</h2>
-        <p>{{site.data.homepage.about.first_paragraph}}</p><br>
-
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th>Month</th>
-                      <th>Revenue</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {% for income in site.data.homepage.about.income_table %}
-                        <tr>
-                          <td>{{ income.month }}</td>
-                          <td class="amount">{{ income.income }}</td>
-                        </tr>
-                    {% endfor %}
-                  </tbody>
-                </table>
-            </div>
-        </div><br>
-
-        <p>{{site.data.homepage.about.second_paragraph}}</p><br><br>
-
-        <a class="btn-primary btn-hg" href="#signup_row">{{site.data.homepage.about.call_to_action}}</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- What You Will Learn -->
-<div class="learn-row description-row">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
+<div class="container">
+    <!-- What You Will Learn -->
+    <div class="learn-row description-row row">
+        
         <h2 class="section-title">{{site.data.homepage.learn.title}}</h2>
         
         {% for point in site.data.homepage.learn.points %}
@@ -154,62 +123,57 @@ background-position: center !important;">
                 <div class="point-description">{{point.description}}</div>
             </div>
         {% endfor %}
-      </div>
+
     </div>
-  </div>
+</div>
 </div>
 
 <!-- Sign Up To Get Notified -->
-<div class="signup-row description-row" id="signup_row">
-  <div class="container">
+<div class="signup-row description-row container-fluid" id="signup_row">
       <div class="col-lg-12 col-md-12">
         <h2 class="section-title">{{site.data.homepage.signup.title}}</h2>
-
-        <div id='ck_success_msg'  style='display:none;'>
-          <p>Thanks! Now check your email.</p>
-        </div>
-        <p class="ck_errorArea"></p>
-
-        <!--  Form starts here  -->
-        <form id="ck_subscribe_form" class="signup-form" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
-          <input type="hidden" name="id" value="913" id="landing_page_id"></input>
-          <div class="row">
-            <input class="col-xs-12 col-sm-4 col-sm-offset-4" name="first_name" id="ck_firstNameField" required type="textbox" placeholder="First name">
-          </div>
-
-          <div class="row">
-            <input class="col-xs-12 col-sm-4 col-sm-offset-4" name="email" id="ck_emailField" required type="textbox" placeholder="Enter your e-mail address">
-          </div>
-
-          <div class="row">
-            <input class="col-xs-12 col-sm-4 col-sm-offset-4 btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
-          </div>
-        </form>
-
-      </div>
+        <div class="open-modal btn btn-default btn-primary btn-large btn-block">{{site.data.homepage.signup.button}}</div>
   </div>
 </div>
 
-<!-- A Letter From -->
-<div class="letter-row description-row">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
-        <img class="large-img-rounded img-responsive" src="{{site.data.homepage.letter.image}}">
-        <h2 class="section-title">{{site.data.homepage.letter.title}}</h2>
-        <h3 class="letter-title">{{site.data.homepage.letter.subtitle}}</h3>
-        {% for each in site.data.homepage.letter.contents %}
-        <p>{{ each.paragraph }}</p>
+<div class="container">
+    <div class="learn-row description-row calendar-row row">
+
+        <h2 class="section-title">{{site.data.homepage.calendar.title}}</h2>
+        
+        {% for point in site.data.homepage.calendar.points %}
+            <div class="calendar-point col-sm-6 row">
+              
+              <!-- DATE -->
+              <div class="point-date-box col-sm-4">
+                  <div class="point-month">{{ point.month }}</div>
+                  <div class="point-date">{{ point.date }}</div>
+                  <div class="point-day">{{ point.day }}</div>
+               </div> 
+
+               <!-- ABOUT WEBINAR -->
+               <div class="point-content-box col-sm-8">
+                  <div class="point-content-background-box" style="background: url({{ point.background }})"></div>
+                    
+                    <div class="point-content-inner-box">
+                        <div class="calendar-point-title">{{ point.title }}</div>
+                        <div class="point-time-string">{{ point.time-string }}</div>
+                        <div class="point-duration">{{ point.duration }}</div>
+                    </div>
+                     <div class="point-content-distraction"></div>
+                    
+               </div>
+            </div>
         {% endfor %}
-      </div>
-    </div>
+
+    </div>   
+</div>
   </div>
 </div>
-
 
 
 <!-- Featuring Insights From -->
-<div class="featuring-row description-row">
+<div class="featuring-row description-row" id="scroll-the-speakers">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12">
@@ -223,7 +187,7 @@ background-position: center !important;">
             {% endif %}
 
               <div class="person col-sm-3 col-xs-11">
-                  <img class="large-img-rounded img-responsive" src="{{person.image}}">
+                  <div class="person-image" style="background:url({{person.image}})"></div>
                   <div class="point-description"><strong>{{person.name}}</strong><br><em>{{person.role}}</em></div>
               </div>
 
@@ -259,29 +223,8 @@ background-position: center !important;">
 <div class="signup-row description-row" id="signup_row">
   <div class="container">
       <div class="col-lg-12 col-md-12">
-        <h2 class="section-title">{{site.data.homepage.signup_2.title}}</h2>
-
-        <div id='ck_success_msg'  style='display:none;'>
-          <p>Thanks! Now check your email.</p>
-        </div>
-        <p class="ck_errorArea"></p>
-
-        <!--  Form starts here  -->
-        <form id="ck_subscribe_form" class="signup-form" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
-          <input type="hidden" name="id" value="913" id="landing_page_id"></input>
-          <div class="row">
-            <input class="col-xs-12 col-sm-4 col-sm-offset-4" name="first_name" id="ck_firstNameField" required type="textbox" placeholder="First name">
-          </div>
-
-          <div class="row">
-            <input class="col-xs-12 col-sm-4 col-sm-offset-4" name="email" id="ck_emailField" required type="textbox" placeholder="Enter your e-mail address">
-          </div>
-
-          <div class="row">
-            <input class="col-xs-12 col-sm-4 col-sm-offset-4 btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
-          </div>
-        </form>
-
+         <h2 class="section-title">{{site.data.homepage.signup.title}}</h2>
+        <div class="open-modal btn btn-default btn-primary btn-large btn-block">{{site.data.homepage.signup.button}}</div>
       </div>
   </div>
 </div>
@@ -290,7 +233,7 @@ background-position: center !important;">
 <div class="faq-row description-row" id="signup_row">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1" id="scroll-faq">
         <h2 class="section-title">{{site.data.homepage.faq.title}}</h2>
         {% for question in site.data.homepage.faq.qa %}
             <div class="faq-question">{{question.question}}</div>
@@ -302,7 +245,17 @@ background-position: center !important;">
   </div>
 </div>
 
+
+<!-- Sign Up To Get Notified -->
+<div class="signup-row description-row" id="signup_row">
+  <div class="container">
+      <h2 class="section-title">{{site.data.homepage.signup.title}}</h2>
+      <div class="open-modal btn btn-default btn-primary btn-large btn-block">{{site.data.homepage.signup.button}}</div>
+  </div>
+</div>
+
 <!-- Footer -->
+<!--
 <div class="testimonial-row instructor-row">
   <div class="container">
     <div class="row">
@@ -313,7 +266,37 @@ background-position: center !important;">
     </div>
   </div>
 </div>
+-->
 
+
+
+<!-- MODAL WINDOW -->
+<div class="modal-window-parent">
+  <div class="modal-window-background"></div>
+
+  <div class="modal-window">
+      <div class="modal-window-close">X</div>
+
+        <img class="modal-window-image" src="http://cdn2.hubspot.net/hubfs/677576/Images/leadbox_status_bar_gray3.gif?t=1445358012476">
+          <div class="modal-window-header-text">Almost there! Please complete this form and click the button below to gain instant access.</div>
+
+         <h2 class="modal-title text-center">Enter your email address to register for this Special Online Summit ...</h2>
+
+         <div class="form-parent">
+        <!-- FORM -->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({ 
+                css: '',
+                portalId: '677576',
+                formId: '2e5d5976-09d3-4545-a4c4-b64ee459a5cd'
+              });
+            </script>
+            <div class="form-text text-center">100% secure.</div>
+          </div>
+  </div>
+
+</div>
 
 </body>
 </html>
